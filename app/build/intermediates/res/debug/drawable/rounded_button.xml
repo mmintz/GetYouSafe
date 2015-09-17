@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape  
+			android:shape="oval"
+			>
+            <stroke
+                android:color="@android:color/white"
+                android:width="5dp" />
+            <gradient android:angle="270"
+            android:centerColor="#70ffffff"
+            android:endColor="#70ffffff"
+            android:startColor="#90150517" />
+        </shape>
+    </item>
+</selector>
+    
+<!-- From: file:/C:/android-AppUsageStatistics-master/Multicare/app/src/main/res/drawable/rounded_button.xml -->

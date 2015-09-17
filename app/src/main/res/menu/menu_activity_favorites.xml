@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/insert_favorite_contact"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/insert_phone_record">
+    </item>
+    <item
+        android:id="@+id/import_contacts_from_phone"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/import_contacts_from_phone">
+    </item>
+    <item
+        android:id="@+id/delete_multiple_phone_favorites"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/delete_multiple_phone_favorites">
+    </item>
+
+</menu>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/listChoiceBackgroundIndicator"
+    android:minHeight="70dp"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/imageViewCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="?android:attr/listChoiceBackgroundIndicator"
+        android:clickable="true"
+        android:contentDescription="@string/content_description_call"
+        android:src="@drawable/device_access_ring_volume" />
+
+    <ImageView
+        android:id="@+id/imageViewSendSms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="?android:attr/listChoiceBackgroundIndicator"
+        android:clickable="true"
+        android:contentDescription="@string/content_description_sms"
+        android:src="@drawable/content_email" />
+
+    <CheckBox
+        android:id="@+id/checkBoxDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:checked="false" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="10dp" >
+
+        <TextView
+            android:id="@+id/textContactName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Contact_Name"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textContactPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Contact_Phone_Number"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/android-AppUsageStatistics-master/Multicare/app/src/main/res/layout/listview_item_row_favorite.xml -->

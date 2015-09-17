@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_action_multilocker"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/label_locker">
+    </item>
+    <item
+        android:id="@+id/menu_action_quotes"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/label_quotes">
+    </item>
+    
+     <item
+        android:id="@+id/menu_action_set_home_location"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/setting_set_home_location">
+    </item>
+    <item
+        android:id="@+id/menu_action_take_me_home"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/setting_take_me_home">
+    </item>
+    
+    <item
+        android:id="@+id/menu_action_drunk_favorite_contacts"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_load_drunk_contacts">
+    </item>
+    <item
+        android:id="@+id/menu_action_load_favorite_contacts"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_load_favorite_contacts">
+    </item>
+   
+    <item
+        android:id="@+id/menu_action_drunk_mode"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/button_drunk">
+    </item>
+</menu><!-- From: file:/C:/android-AppUsageStatistics-master/Multicare/app/src/main/res/menu/menu_activity_main_no_drunk.xml -->

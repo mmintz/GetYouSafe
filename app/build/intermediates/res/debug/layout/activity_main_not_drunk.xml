@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutadd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/myshape"
+    android:gravity="center"
+   
+    android:orientation="vertical" >
+     <com.google.android.gms.ads.AdView
+    android:id="@+id/adView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    ads:adSize="BANNER"
+    ads:adUnitId="ca-app-pub-9543282055174098/3822189367" >
+</com.google.android.gms.ads.AdView>
+<ScrollView 
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent" 
+     android:fillViewport="true">
+     
+    <LinearLayout
+         
+        android:id="@+id/layoutRowMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dip"
+        android:background="@drawable/myshape"
+        android:orientation="vertical" >
+	
+        <LinearLayout
+            android:id="@+id/layoutRowLocker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dip"
+            android:background="@drawable/myshape"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/imageEnableLockingService"
+                style="@android:style/TextAppearance.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:contentDescription="@string/delete_multiple_phone_favorites"
+                android:src="@drawable/locker_logo_small" >
+            </ImageButton>
+
+            <Button
+                android:id="@+id/textViewLocker"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="?android:attr/listChoiceBackgroundIndicator"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="@string/label_locker"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+        </LinearLayout>
+		<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1"
+        android:text="MultiLocker"
+        android:textStyle="bold"
+         />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:id="@+id/layoutRowQuotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="0dip"
+            android:background="@drawable/myshape"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/imageQuotes"
+                style="@android:style/TextAppearance.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:contentDescription="@string/delete_multiple_phone_favorites"
+                android:src="@drawable/quotes_logo_small" >
+            </ImageButton>
+
+            <Button
+                android:id="@+id/textViewQuotes"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="?android:attr/listChoiceBackgroundIndicator"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="@string/label_quotes"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+        </LinearLayout>
+		<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/feeling"
+        android:text="MultiFeelingMode"
+        android:textStyle="bold"
+         />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:id="@+id/layoutMapFunctions"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="0dip"
+            android:background="@drawable/myshape"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/imageHomePicture"
+                style="@android:style/TextAppearance.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:contentDescription="@string/delete_multiple_phone_favorites"
+                android:src="@drawable/home_logo_small" >
+            </ImageButton>
+
+            <LinearLayout
+                android:id="@+id/imageHomePictureSub"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/myshape"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/textViewSetHomeLocation"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="0dp"
+                    android:background="?android:attr/listChoiceBackgroundIndicator"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="@string/setting_set_home_location"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000" />
+
+                <Button
+                    android:id="@+id/textViewTakeMeHome"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="0dp"
+                    android:background="?android:attr/listChoiceBackgroundIndicator"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="@string/setting_take_me_home"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+        </LinearLayout>
+		<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contacts"
+        android:text="MultiNavigation"
+        android:textStyle="bold"
+         />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:id="@+id/layoutFavoriteContacts"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="0dip"
+            android:background="@drawable/myshape"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/imageLoadFavoriteContacts"
+                style="@android:style/TextAppearance.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:contentDescription="@string/delete_multiple_phone_favorites"
+                android:src="@drawable/friends_logo_small" >
+            </ImageButton>
+
+            <LinearLayout
+                android:id="@+id/imageHomePictureSub1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/myshape"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/textViewEmergencyContacts"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="2dp"
+                    android:background="?android:attr/listChoiceBackgroundIndicator"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="@string/emergency_contacts"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000" />
+
+                <Button
+                    android:id="@+id/textViewFavoriteContacts"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="0dp"
+                    android:background="?android:attr/listChoiceBackgroundIndicator"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="@string/favorite_contacts"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000" />
+            </LinearLayout>
+        </LinearLayout>
+		<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/drunk"
+        android:text="MultiEmergency"
+        android:textStyle="bold"
+         />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+		
+        <LinearLayout
+            android:id="@+id/layoutDrunkMode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="0dip"
+            android:background="@drawable/myshape"
+            android:gravity="center"
+            android:orientation="horizontal" >
+				
+            <ImageButton
+                android:id="@+id/imageDrunkMode"
+                style="@android:style/TextAppearance.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:contentDescription="@string/delete_multiple_phone_favorites"
+                android:src="@drawable/drunk" >
+            </ImageButton>
+				
+            <LinearLayout
+                android:id="@+id/imageDrunkModeSub"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/myshape"
+                android:gravity="center"
+                android:orientation="vertical" >
+				
+                <Button
+                    android:id="@+id/buttonDrunkMode"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="2dp"
+                    android:background="?android:attr/listChoiceBackgroundIndicator"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="@string/button_drunk"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/drunk2"
+        android:text="MultiDrunkMode"
+        android:textStyle="bold"
+        
+         />
+       
+    </LinearLayout>
+    
+</ScrollView>
+
+
+
+</LinearLayout><!-- From: file:/C:/android-AppUsageStatistics-master/Multicare/app/src/main/res/layout/activity_main_not_drunk.xml -->

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutExternal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dip"
+    android:background="@drawable/myshape"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layoutRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/myshape"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textViewMuticareLabel"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/multicare_label_widget"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#0099cc" />
+    </LinearLayout>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+    
+    <LinearLayout
+        android:id="@+id/layoutRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/myshape"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/imageEnableLockingService"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/delete_multiple_phone_favorites"
+            android:src="@drawable/locker_logo_small" >
+        </ImageButton>
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray" />
+
+        <ImageButton
+            android:id="@+id/imageQuotes"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/delete_multiple_phone_favorites"
+            android:src="@drawable/quotes_logo_small" >
+        </ImageButton>
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/darker_gray" />
+
+        <ImageButton
+            android:id="@+id/imageTakeMeHome"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/delete_multiple_phone_favorites"
+            android:src="@drawable/home_logo_small" >
+        </ImageButton>
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/darker_gray" />
+
+        <ImageButton
+            android:id="@+id/imageFriendList"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/delete_multiple_phone_favorites"
+            android:src="@drawable/friends_logo_small" >
+        </ImageButton>
+        
+                <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/darker_gray" />
+
+        <ImageButton
+            android:id="@+id/imageDrunkMode"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/delete_multiple_phone_favorites"
+            android:src="@drawable/drunk" >
+        </ImageButton>
+        
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/android-AppUsageStatistics-master/Multicare/app/src/main/res/layout/widget_layout.xml -->

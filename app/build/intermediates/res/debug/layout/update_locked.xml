@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    
+    >
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    <ImageView 
+         android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:background="@drawable/locker_logo"
+        android:layout_centerHorizontal="true"
+    
+        />
+    </RelativeLayout>
+    
+
+ <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/locker_image"
+        android:textStyle="bold"
+        android:textColor="#ff00ff"
+            android:layout_weight="1"
+           android:layout_centerHorizontal="true"
+            />
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/number1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+          android:color="@android:color/holo_green_dark"
+            android:gravity="center"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/number2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+           android:color="@android:color/holo_green_dark"
+             android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/number3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            
+            android:background="@drawable/rounded_button"
+            android:text="3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/number4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+           
+            android:background="@drawable/rounded_button"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/number5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+           
+            android:background="@drawable/rounded_button"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/number6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+           
+            android:background="@drawable/rounded_button"
+            android:text="6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/number7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+           
+            android:background="@drawable/rounded_button"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/number8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+           
+            android:background="@drawable/rounded_button"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/number9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+           
+            android:background="@drawable/rounded_button"
+            android:text="9" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/android-AppUsageStatistics-master/Multicare/app/src/main/res/layout/update_locked.xml -->
